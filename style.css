@@ -1,0 +1,47 @@
+h3 {
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+}
+
+body {
+    background-image: url("tropical_beach.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#take_snapshot,
+#applyTint {
+    font-family: 'Are You Serious', cursive;
+    font-size: 25px;
+    background-color: #fcd55e;
+    width: 10%;
+    border-radius: 10px;
+}
+
+#inp_tint {
+    width: 20%;
+    border-width: 2px;
+    border-color: black;
+}
+
+canvas {
+    animation: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    25% {
+        box-shadow: 1px 1px 30px yellow;
+    }
+    50% {
+        box-shadow: 1px 1px 30px orange;
+    }
+    75% {
+        box-shadow: 1px 1px 30px orangered;
+    }
+    100% {
+        box-shadow: 1px 1px 30px red;
+    }
+}

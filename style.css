@@ -1,5 +1,5 @@
 h3 {
-    font-size: 40px;
+    font-size: 35px;
     font-family: 'Dancing Script', cursive;
     font-weight: 400;
 }
@@ -16,11 +16,13 @@ body {
     font-size: 25px;
     background-color: #fcd55e;
     width: 10%;
+    height: 6%;
     border-radius: 10px;
 }
 
 #input_tint {
     width: 20%;
+    height: 5%;
     border-width: 2px;
     border-color: black;
 }
